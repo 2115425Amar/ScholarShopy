@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ScholarShopy/static/css/main.3b60af0e.css",
+    "main.js": "/ScholarShopy/static/js/main.50ca282b.js",
+    "index.html": "/ScholarShopy/index.html",
+    "main.3b60af0e.css.map": "/ScholarShopy/static/css/main.3b60af0e.css.map",
+    "main.50ca282b.js.map": "/ScholarShopy/static/js/main.50ca282b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b60af0e.css",
+    "static/js/main.50ca282b.js"
+  ]
+}
