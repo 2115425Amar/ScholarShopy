@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Spinner.css"
 const Spinner = () => {
   return (
     <div className='spinner'>
@@ -9,3 +9,4 @@ const Spinner = () => {
 }
 
 export default Spinner
+

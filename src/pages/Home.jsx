@@ -31,7 +31,9 @@ const Home = () => {
   return (
     <div>
     {
-      loading ? <Spinner/> :
+      loading ? 
+      <Spinner/> :
+
       posts.length > 0 ?
       (<div>
        {
@@ -41,8 +43,9 @@ const Home = () => {
        }
       </div>
       ):
+      
       <div>
-      <p>No Data Found</p>
+      <p>No Data Found...</p>
       </div>
     }
     </div>
