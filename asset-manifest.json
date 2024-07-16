@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ScholarShopy/static/css/main.3b60af0e.css",
-    "main.js": "/ScholarShopy/static/js/main.2952171a.js",
+    "main.css": "/ScholarShopy/static/css/main.f9275ec1.css",
+    "main.js": "/ScholarShopy/static/js/main.5f83d94c.js",
     "index.html": "/ScholarShopy/index.html",
-    "main.3b60af0e.css.map": "/ScholarShopy/static/css/main.3b60af0e.css.map",
-    "main.2952171a.js.map": "/ScholarShopy/static/js/main.2952171a.js.map"
+    "main.f9275ec1.css.map": "/ScholarShopy/static/css/main.f9275ec1.css.map",
+    "main.5f83d94c.js.map": "/ScholarShopy/static/js/main.5f83d94c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b60af0e.css",
-    "static/js/main.2952171a.js"
+    "static/css/main.f9275ec1.css",
+    "static/js/main.5f83d94c.js"
   ]
 }
