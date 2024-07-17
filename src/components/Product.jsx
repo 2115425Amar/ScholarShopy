@@ -49,6 +49,7 @@ const Product = ({post}) => {
         (<button onClick={removeFromCart}>
             Remove Item
         </button>):
+        
         (<button onClick={addToCart}>Add To Cart
         </button>)
     }
