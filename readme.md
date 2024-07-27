@@ -1,3 +1,5 @@
+##Click on the icons to fetch the data on the page
+
 Here's a README for your shopping cart project using Redux:
 
 ---
