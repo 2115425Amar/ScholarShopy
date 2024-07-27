@@ -10,7 +10,8 @@ const NavBar = () => {
       <nav className="flex justify-between items-center h-20 max-w-6xl mx-auto ">
         <NavLink to="/">
           <div className="ml-5">
-            <img src="../logo.png" alt="asdf" className="h-14"  />
+            {/* <img src="./logo.png" alt="asdf" className="h-14"  /> */}
+            <FaShoppingCart className="text-6xl bg-white rounded" /> 
           </div>
         </NavLink>
 

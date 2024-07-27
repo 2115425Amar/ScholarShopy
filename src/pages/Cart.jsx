@@ -12,12 +12,12 @@ const Cart = () => {
   },[cart]);
 
   return (
-    <div>
+    <div className="mx-auto">
     {
       cart.length>0 ?
-       (<div>
+       (<div className="flex flex-row justify-between">
        {/* ------------------------------------------------------------------------ */}
-        <div>
+        <div className="">
           {
             cart.map((item,index)=>{
               return <Cartitem key={item.id} item={item} itemIndex={item}/>
@@ -25,19 +25,20 @@ const Cart = () => {
           }
         </div>
         {/* ---------------------------------------------------------------------------- */}
-        <div>
-          <div>
+        <div className='flex flex-col mx-auto'>
+          <div className='outline mt-12'>
             <div>Your Cart</div>
             <div>Summary</div>
             <p><span>Total Items: {cart.length}</span></p>
           </div>
 
-          <div>
+          <div className='outline mt-10'>
             <p>Total Amount :{totalAmount}</p>
             <button>CheckOut Now</button>
           </div>
         </div>
        </div>):
+
        (<div>
         <h1>Your Cart is Empty</h1>
         <Link to={"/"}>Add Items to Cart</Link>
